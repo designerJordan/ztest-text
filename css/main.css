@@ -79,7 +79,7 @@ ul.quote > li {
 }
 
 .quotebg {
-    width: 49%;
+    width: 42%;
     height: 40em;
     background-color: rgba(97,140,163,1);
     display: block;
@@ -87,34 +87,34 @@ ul.quote > li {
     top: -41em;
     left: 50%;
     z-index: 10;
-    -webkit-transform: skew(-10deg);
+    /*-webkit-transform: skew(-10deg);
     -moz-transform: skew(-10deg);
-    -o-transform: skew(-10deg);
-    -webkit-transition: all 7s ease-in-out;
+    -o-transform: skew(-10deg);*/
+/*    -webkit-transition: all 7s ease-in-out;
     -moz-transition: all 7s ease-in-out;
     -o-transition: all 7s ease-in-out;
     -ms-transition: all 7s ease-in-out;
-    transition: all 7s ease-in-out;
-/*    -webkit-transition-property: z-index;
-    -moz-transition-property: z-index;
-    -o-transition-property: z-index;
-    -ms-transition-property: z-index;
-    transition-property: z-index;
-    -webkit-transition-duration: 8s;
-    -moz-transition-duration: 8s;
-    -o-transition-duration: 8s;
-    -ms-transition-duration: 8s;
-    transition-duration: 8s;*/
+    transition: all 7s ease-in-out;*/
+    -webkit-transition-property: z-index, height, background-color;
+    -moz-transition-property: z-index, height, background-color;
+    -o-transition-property: z-index, height, background-color;
+    -ms-transition-property: z-index, height, background-color;
+    transition-property: z-index, height, background-color;
+    -webkit-transition-duration: 4s;
+    -moz-transition-duration: 4s;
+    -o-transition-duration: 4s;
+    -ms-transition-duration: 4s;
+    transition-duration: 4s;
 }
 
 .quotebg:hover {
-    width: 0%;
-    height: 0em;
-    background-color: rgba(97,140,163,0.5);
+    width: 42%;
+    height: 41em;
+    background-color: rgba(97,140,163,0.8);
     display: block;
     position: relative;
     top: -41em;
-    left: 99%;
+    left: 50%;
     z-index: 1;
 }
 
