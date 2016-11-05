@@ -81,7 +81,7 @@ ul.quote > li {
 .quotebg {
     width: 42%;
     height: 40em;
-    background-color: rgba(97,140,163,1);
+    background-color: rgba(97,140,163,0.7);
     display: block;
     position: relative;
     top: -41em;
